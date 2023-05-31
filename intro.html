@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <body>  
+<h1>Heading One</h1>
+<p>just some text</p>
+<h2>Heading Two</h2>
+<p>just some text</p>
+<h3>Heading Three</h3>
+<p>Just some text</p>
+  </body>
+  </html>
+
+
+
+
+
+
+$(document) .ready(function()  {
+
+$("p") .hide ();
+
+$("h1").click(function()  {
+$("this") .next() .slideToggle(300);
+});
+
+});
+
