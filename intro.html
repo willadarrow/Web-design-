@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <script>
+
+
+$(document) .ready(function()  {
+
+$("p") .hide ();
+
+$("h1").click(function()  {
+$("this") .next() .slideToggle(300);
+});
+
+});
+</script>
+  </head>
 
   <body>  
 <h1>Heading One</h1>
@@ -14,15 +29,4 @@
 
 
 
-
-
-$(document) .ready(function()  {
-
-$("p") .hide ();
-
-$("h1").click(function()  {
-$("this") .next() .slideToggle(300);
-});
-
-});
 
