@@ -1,0 +1,36 @@
+$(document).ready(function(){
+//anonymous function
+   $("h1").click(function(){
+      $(this).css("color","yellow");    
+   
+   });
+   $("h1").mousedown(function(){
+      $(this).css("background-color","green");    
+   
+   });
+
+   $("h1").mouseup(function(){
+      $(this).css("background-color","transparent"); 
+
+   });
+   $("h2").mousedown(function(){
+      $(this).css("background-color","blue");  
+
+
+   });
+
+   $("h2").mouseup(function(){
+      $(this).css("background-color","transparent");    
+   
+
+   });
+
+ $("h3").click(function(){   
+      $("*").unbind("mouseleave");    
+   
+   });
+
+
+
+
+});
